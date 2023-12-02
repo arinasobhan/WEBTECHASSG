@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RM1 Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="iium_logo.png" alt="IIUM logo" />
+      <h1>RM1 CAMPAIGN</h1>
+      <p class="tagline">
+        Let Your Contributions Be Perpetual For The Pleasure Of Allah SWT
+      </p>
+    </header>
+    <p></p>
+    <section class="quran">
+      <p class="quran-verse">
+      "The example of those who spend their wealth in the way of Allah is like a seed [of grain]
+      which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward]
+      for whom He wills. And Allah is all-Encompassing and Knowing."
+    </p>
+    <p class="surah">
+      Al-Baqarah : 261 
+    </p>
+    </section>
+
+    <main>
+      <section class="campaign-image">
+        <img src="campaign_image1.png" alt="Campaign Image" />
+      </section>
+
+      <div class="form-buttons">
+        <button id="nonKulliyahForm">Non-Kulliyah Based</button>
+        <button id="kulliyahForm">Kulliyah Based</button>
+      </div>
+
+      <section class="salary-deduction-form non-kulliyah-form">
+        <h2 id="formTitle">PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION</h2>
+      
+        <form id="deductionForm" class="form-columns">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+      
+          <div class="input-group">
+            <div class="input-half">
+              <label for="staffNo">Staff No:</label>
+              <input type="text" id="staffNo" name="staffNo" required /><br /><br />
+      
+              <label for="kcdio">K/C/D/I/O:</label>
+              <input type="text" id="kcdio" name="kcdio" required /><br /><br />
+            </div>
+      
+            <div class="input-half">
+              <label for="contactNo">Contact No:</label>
+              <input type="text" id="contactNo" name="contactNo" required /><br /><br />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required /><br /><br />
+            </div>
+          </div>      
+          <label for="amount">Amount to be deducted (RM):</label>
+          <input type="number" id="amount" name="amount" step="0.01" required/><br /><br />
+          <fieldset>
+            <legend>Donation Termination Date</legend>
+            <label for="startDate">Choose start date:</label>
+            <input type="date" id="startDate" name="startDate" required/><br><br>
+            
+            <label for="endDate">Choose termination date:</label>
+            <input type="date" id="endDate" name="endDate" required/><br><br>
+          </fieldset>
+          <label>
+            <input
+              type="checkbox" id="agree" name="agreement" value="agree" required
+            />
+            I agree that a monthly deduction of amount that I stated above will
+            be made from my salary as a contribution to the RM1 Campaign Program
+            initiated by IIUM for the betterment of the community. </label ><br />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="salary-deduction-form kulliyah-form" style="display: none;">
+        <h2 id="formTitle">PARTICIPATION IN RM1 CAMPAIGN—MONTHLY SALARY DEDUCTION (Kulliyah Based)</h2>
+      
+        <form id="deductionForm" class="form-columns">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br /><br />
+      
+          <div class="input-group">
+            <div class="input-half">
+              <label for="staffNo">Staff No:</label>
+              <input type="text" id="staffNo" name="staffNo" required /><br /><br />
+      
+              <label for="kcdio">K/C/D/I/O:</label>
+              <input type="text" id="kcdio" name="kcdio" required /><br /><br />
+            </div>
+      
+            <div class="input-half">
+              <label for="contactNo">Contact No:</label>
+              <input type="text" id="contactNo" name="contactNo" required /><br /><br />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required /><br /><br />
+            </div>
+          </div>      
+
+          <label for="amount">Amount to be deducted (RM):</label>
+          <input type="number" id="amount" name="amount" step="0.01" required/><br /><br />
+
+          <fieldset required>
+            <legend>For Kulliyah:</legend>
+            <label>
+              <input type="radio" id="kict" name="kuliiyah" value="KICT" />
+              KICT </label><br />
+
+            <label>
+              <input type="radio" id="kaed" name="kuliiyah" value="KAED" />
+              KAED </label><br />
+
+            <label>
+              <input type="radio" id="aikol" name="kuliiyah" value="AIKOL" />
+              AIKOL </label><br />
+
+            <label>
+              <input type="radio" id="kenms" name="kuliiyah" value="KENMS" />
+              KENMS </label><br />
+
+            <label>
+              <input type="radio" id="koe" name="kuliiyah" value="KOE" />
+              KOE </label><br />
+
+            <label>
+              <input type="radio" id="celpad" name="kuliiyah" value="CELPAD" />
+              CELPAD </label><br />
+
+            <label>
+              <input type="radio" id="koed" name="kuliiyah" value="KOED" />
+              KOED </label><br />
+
+            <br /><br />
+          </fieldset>
+          <fieldset>
+            <legend>Donation Termination Date</legend>
+            <label for="startDate">Choose start date:</label>
+            <input type="date" id="startDate" name="startDate" required/><br><br>
+
+            <label for="endDate">Choose termination date:</label>
+            <input type="date" id="endDate" name="endDate" required/><br><br>
+          </fieldset>
+
+          <label>
+            <input
+              type="checkbox" id="agree" name="agreement" value="agree" required />
+            I agree that a monthly deduction of amount that I stated above will
+            be made from my salary as a contribution to the RM1 Campaign Program
+            initiated by IIUM for the betterment of the community. </label><br />
+        
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+      <section class="contact-info">
+        <img src="contact_logo.png" alt="contact us" />
+        <h3>IIUM ENDOWMENT FUND</h3>
+        <p class="address">
+          Level 3, Rectory International Islamic University Malaysia P.O, Box 10
+          50728 Kuala Lumpur
+        </p>
+        <p>Tel: 03 61964268</p>
+        <p>Email: ief@iium.edu.my</p>
+        <p>Website: www.iium.edu.my/ief</p>
+        <p>Facebook: www.facebook.com/ief.official</p>
+        <button onclick="scrollToTop()" id="scrollBtn" title="Go to top">⇑</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
