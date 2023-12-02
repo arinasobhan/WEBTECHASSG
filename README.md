@@ -13,7 +13,7 @@ ARINA BATRISYIA SOBHAN - 2217572 - SECTION 2
    When the user scrolls down, a scroll to top button will be display. Clicking on this button will scrolls the page to the top
 
 
-References.
+#References.
 
 1. https://sunbeamshome.org/rm-1-a-day/
    I referenced this website for the styling and the functinality. 
