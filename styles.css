@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-color: rgb(251, 248, 234);
+    background-image: url(Background2.jpeg);
     margin: 0;
     padding: 0;
   }
@@ -80,7 +80,7 @@ body {
   }
 
   button[id="nonKulliyahForm"] {
-    background-color: #feffc3;
+    background-color: #fde403;
     color: black;
     margin-top: 10px;
     margin-left: auto;
@@ -94,7 +94,7 @@ body {
   }
 
   button[id="kulliyahForm"] {
-    background-color: #feffc3;
+    background-color: #fde403;
     color: black;
     margin-top: 10px;
     margin-left: auto;
@@ -191,7 +191,7 @@ body {
   }
   
   button[type="submit"] {
-    background-color: #feffc3;
+    background-color: #fde403;
     color: black;
     margin-top: 10px;
     margin-left: auto;
