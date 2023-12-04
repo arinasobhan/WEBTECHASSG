@@ -5,6 +5,13 @@ form.addEventListener('submit', function(event) {
   form.reset();
 });
 
+const form1 = document.getElementById('deductionForm1');
+form1.addEventListener('submit', function(event) {
+  event.preventDefault();
+  alert('Thank you for your submission ! Together we can make a world a better place ');
+  form1.reset();
+});
+
 document.getElementById("nonKulliyahForm").addEventListener("click", function() {
   document.querySelector(".non-kulliyah-form").style.display = "block";
   document.querySelector(".kulliyah-form").style.display = "none";
